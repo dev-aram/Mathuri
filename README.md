@@ -31,7 +31,47 @@
 - 유사도 측정 모델 [ddobokki/klue-roberta-base-nli-sts](https://huggingface.co/ddobokki/klue-roberta-base-nli-sts)
 -----------------
 ## 🚀 Result
-[추리추리 마추리 ppt](https://github.com/dev-aram/Mathuri.git/마추리_발표.pdf)
+- 발표ppt [추리추리 마추리 ppt](https://github.com/dev-aram/Mathuri.git/마추리_발표.pdf)
+
+### **프론트**
+- 제작 화면1
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/102acf10-a28f-4910-9cf4-fcbbe411205e">
+
+- 제작 화면2
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/dc70ce0e-efc0-4c11-ba5a-46af259e8fb7">
+
+### **서버**
+확장성을 위해 node, python 두가지 서버를 같이 사용 채팅부분을 제외한 나머지 부분은 전무 node.js로 서버를 작업하였고 모델과 소통해야하는 채팅 부분은 python 서버로 작업하였습니다.
+
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/1abe245c-1cab-4294-9e44-64e31c57926f">
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/ca2ee070-ea4b-46e9-85be-62f0dad75699">
+
+### **모델**
+유저가 질문을 입력하면 RoBerta로 유사성을 검사하고 문제와 유저가 입력한 질문이 유사하다고 판단되면 GPT2 모델에 넣어 학습한 질문과 대조하여 학습된 답변을 그래도 출력하거나 GPT2가 생성한 답변을 출력되게 모델을 학습시켰습니다.
+
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/7be28c64-0c2a-4e17-ab4d-9c0295ba1180">
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/dff17a9b-6752-4187-a0f4-8e799135f226">
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/28ab16b7-c197-4998-8993-d5dfd0ad3c33">
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/49ffe5e3-0676-4e6a-97b9-8b504c6e3f2a">
+
+- **전처리 과정**
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/f08979cc-647c-4085-b13e-6e097dfe9e71">
+
+- **GPT2**
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/4ac6fced-5981-4921-ba5c-487182f1af63">
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/8ad2ec6f-2fb0-49e4-adaa-20f6299589de">
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/4bbd766f-4db5-4ebd-9524-9dcf0ea4250d">
+
+- **최종모델**
+<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/4dc61506-bd8a-45b1-bcfd-2a6b23431b69">
+
+
+
+
+
+
+
+
 
 
 
