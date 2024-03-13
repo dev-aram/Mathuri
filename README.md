@@ -31,7 +31,10 @@
 - 유사도 측정 모델 [ddobokki/klue-roberta-base-nli-sts](https://huggingface.co/ddobokki/klue-roberta-base-nli-sts)
 -----------------
 ## 🚀 Result
-- 발표ppt [추리추리 마추리 ppt](https://github.com/dev-aram/Mathuri.git/마추리_발표.pdf)
+
+### **발표ppt**
+[추리추리 마추리 ppt](https://github.com/dev-aram/Mathuri/blob/master/%EB%A7%88%EC%B6%94%EB%A6%AC_%EB%B0%9C%ED%91%9C.pdf)
+
 
 ### **프론트**
 - 제작 화면1
@@ -64,14 +67,6 @@
 
 - **최종모델**
 <img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/4dc61506-bd8a-45b1-bcfd-2a6b23431b69">
-
-
-
-
-
-
-
-
 
 
 
